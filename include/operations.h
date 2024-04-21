@@ -10,6 +10,7 @@ inline C2D_Text opText[2];
 
 void whatOp();
 void operations(int op);
+void opFreeBuf();
 
 
 #endif

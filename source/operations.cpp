@@ -18,7 +18,10 @@ void drawOpText()
 	  C2D_DrawText(&opText[1], C2D_WithColor | C2D_AlignCenter, 200.0f, 90.0f, 0.5f, 0.5f, 0.75f, C2D_Color32(200, 0, 0, 255));
 	  C3D_FrameEnd(0);
 }
-
+void opFreeBuf()
+{
+	C2D_TextBufDelete(opTextBuf);
+}
 void operations(int op)
 {
     double long num1;

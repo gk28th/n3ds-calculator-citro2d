@@ -1,6 +1,5 @@
 #include "main.h"
 #include "gui.h"
-#include "operations.h"
 
 int main()
 {

@@ -21,6 +21,7 @@ void frameStart()
 void sceneExit()
 {
 	void menuFreeBuf();
+	opFreeBuf();
     C2D_Fini();
 	C3D_Fini();
 	gfxExit();
