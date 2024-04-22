@@ -86,3 +86,4 @@ void operations(int op) // actual maths. int stores operation
       u32 kDown = hidKeysDown();
       if (kDown & KEY_A) break;    // when a is pressed back to home menu
     }
+}
