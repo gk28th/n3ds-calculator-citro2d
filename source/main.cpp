@@ -1,17 +1,21 @@
-#include "main.h"
-#include "gui.h"
+/*created by gk28th
+  File Name: main.cpp
+  Purpose: Main entry point
+*/
+#include "main.h"	// contains main header files and bool
+#include "gui.h"	// for basic render functions
 
 int main()
 {
-	sceneInit();
+	sceneInit();	// init scene with function gui.cpp
 
-	while (aptMainLoop())
+	while (aptMainLoop())	// main loop
 	{
-		whatOp();
-		if (timeToFuckOff) break;
-        menuTextDraw();	
+		whatOp();	// what operations should we do? operation.cpp
+		if (timeToFuckOff) break; // if its time to go, lets go
+        menuTextDraw();			  // draw the menu text, menu.cpp
 	}
 	
-	sceneExit();
+	sceneExit();				// clean up and exit, gui.cpp
 	return 0;
 }
