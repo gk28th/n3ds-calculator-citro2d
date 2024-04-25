@@ -24,7 +24,7 @@ void frameStart() // start frame
 
 void sceneExit()	// leave rn
 {
-	void menuFreeBuf();	// free text buffer for menu
+	menuFreeBuf();	// free text buffer for menu
 	opFreeBuf();		// free text buffer for operations
     C2D_Fini();			// citro2D finished
 	C3D_Fini();			// citro3D finished
