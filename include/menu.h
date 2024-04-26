@@ -8,7 +8,7 @@
 #include "main.h"   // contains main header files and bool
 
 inline C2D_TextBuf menuTextBuf;		// text buffer to store text. can be used anywhere
-inline C2D_Text menuText[4];		// the text. can be used anywhere
+inline C2D_Text menuText[2];		// the text. can be used anywhere
 
 inline const char title[] =			// string that has the title
 	"The GK Calculator\n";
